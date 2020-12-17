@@ -1,0 +1,24 @@
+h2{
+    background: #7faeb7;
+    padding: 4px;
+}
+
+hr{
+    border: 2px solid #7faeb7;
+}
+
+a{
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #004552;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #ffa700;
+}
+
+a:visited{
+    color: #c9e0e5;
+}
