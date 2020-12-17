@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>Exercício 4</title>
+</head>
+
+<body>
+    <h1>Cadastro</h1>
+
+    <form action="cadastro.php">
+        <fieldset>
+            <legend>Informações Pessoais</legend>
+
+            <p>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome" maxlength="100" size="50">
+            </p>
+
+            <p>
+                <label for="idade">Idade:</label>
+                <input type="number" name="idade" id="idade" placeholder="Digite sua idade" maxlength="3" size="8">
+            </p>
+
+            <p>
+                <label for="endereço">Endereço:</label>
+                <input type="text" name="endereço" id="endereço" placeholder="Digite seu endereço" maxlength="100"
+                    size="50">
+            </p>
+
+            <p>
+                <label for="cidade">Cidade:</label>
+                <input type="text" name="cidade" placeholder="Digite a cidade" maxlenght="50" size="40">
+            </p>
+
+            <p>
+                Estado:
+                <select name="estado">
+                    <option value="AC">AC</option>
+                    <option value="AL">AL</option>
+                    <option value="AP">AP</option>
+                    <option value="AM">AM</option>
+                    <option value="BA">BA</option>
+                    <option value="CE">CE</option>
+                    <option value="ES">ES</option>
+                    <option value="GO">GO</option>
+                    <option value="MA">MA</option>
+                    <option value="MT">MT</option>
+                    <option value="MS">MS</option>
+                    <option value="MG">MG</option>
+                    <option value="PA">PA</option>
+                    <option value="PB">PB</option>
+                    <option value="PR">PR</option>
+                    <option value="PE">PE</option>
+                    <option value="PI">PI</option>
+                    <option value="RJ">RJ</option>
+                    <option value="RN">RN</option>
+                    <option value="RS">RS</option>
+                    <option value="RO">RO</option>
+                    <option value="RR">RR</option>
+                    <option value="SC">SC</option>
+                    <option value="SP" selected>SP</option>
+                    <option value="SE">SE</option>
+                    <option value="TO">TO</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="cep">CEP:</label>
+                <input type="text" name="cep" id="cep" placeholder="XXXXX-XXX" size="8">
+            </p>
+
+            <p>
+                <label for="telefone">Tel/Res:</label>
+                <input type="tel" name="telefone" id="telefone" placeholder="19 99999-9999" size="12">
+            </p>
+
+            <p>
+                <label for="celular">Cel/Res:</label>
+                <input type="tel" name="celular" id="celular" placeholder="19 99999-9999" size="12">
+            </p>
+
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="email@contato.com" size="50">
+            </p>
+
+        </fieldset>
+
+        <p>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+        </p>
+    </form>
+
+</body>
+
+</html>
