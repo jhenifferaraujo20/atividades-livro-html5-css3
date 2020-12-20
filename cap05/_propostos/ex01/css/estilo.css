@@ -1,0 +1,46 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 180px;
+}
+
+h1{
+    text-align: right;
+    color: #909;
+    border-bottom: 1px solid #909;
+}
+
+form{
+    background: url(../images/form1_back.jpg) no-repeat;
+}
+
+fieldset{
+    border: 2px solid #FCC;
+    margin-left: 100px;
+}
+
+fieldset label{
+    display: block;
+    float: left;
+    width: 110px;
+}
+
+fieldset input{
+    background: #FCC;
+    border: none;
+    display: block;
+    width: 85%;
+}
+
+textarea{
+    background: #FCC;
+    border: none;
+    display: block;
+    width: 85%
+}
+
+#botao{
+    margin-left: 110px;
+    background-color: #FCC;
+    border: none;
+    padding: 5px 30px;
+}
